@@ -1,0 +1,3 @@
+[submodule "SoundManager"]
+	path = SoundManager
+	url = https://pourhadi@github.com/pourhadi/SoundManager.git
