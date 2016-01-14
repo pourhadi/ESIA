@@ -41,6 +41,19 @@
 		44868ED31C4778C100DCB03D /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44868EB91C4778C100DCB03D /* whoosh.mp3 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		44868EE71C47A46C00DCB03D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		44868E661C47774800DCB03D /* EvilStudiosInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilStudiosInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44868E6A1C47774800DCB03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -175,6 +188,7 @@
 				44868E621C47774800DCB03D /* Sources */,
 				44868E631C47774800DCB03D /* Frameworks */,
 				44868E641C47774800DCB03D /* Resources */,
+				44868EE71C47A46C00DCB03D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,6 +387,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EvilStudiosInterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pourhadi.EvilStudiosInterviewApp;
@@ -384,6 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EvilStudiosInterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pourhadi.EvilStudiosInterviewApp;

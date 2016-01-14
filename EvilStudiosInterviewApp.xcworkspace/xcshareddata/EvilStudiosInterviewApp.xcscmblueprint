@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6873D883BD9A9D32448FD9862E9575CF9BB2581E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6873D883BD9A9D32448FD9862E9575CF9BB2581E" : 0,
+    "59C83E29761E952E5CFE32E2E785CF685F0FDB64" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF3D2BF8-9EA6-4978-AE22-40E23F989266",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6873D883BD9A9D32448FD9862E9575CF9BB2581E" : "EvilStudiosInterviewApp\/",
+    "59C83E29761E952E5CFE32E2E785CF685F0FDB64" : "EvilStudiosInterviewApp\/Carthage\/Checkouts\/SoundManager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EvilStudiosInterviewApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EvilStudiosInterviewApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pourhadi\/SoundManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59C83E29761E952E5CFE32E2E785CF685F0FDB64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pourhadi\/ESIA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6873D883BD9A9D32448FD9862E9575CF9BB2581E"
+    }
+  ]
+}
