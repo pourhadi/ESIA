@@ -1,15 +1,16 @@
 # EvilStudiosInterviewApp
 
 ## Installation instructions
-`$ git clone https://github.com/pourhadi/ESIA.git`
 
-`$ cd ESIA`
+    $ git clone https://github.com/pourhadi/ESIA.git
 
-`$ git submodule init`
+    $ cd ESIA
 
-`$ git submodule update`
+    $ git submodule init
 
-`$ pod install`
+    $ git submodule update
+
+    $ pod install
 
 Open EvilStudiosInterviewApp.xcworkspace and run the app.
 
