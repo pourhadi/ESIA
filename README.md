@@ -2,6 +2,8 @@
 
 ## Installation instructions
 
+Requires [CocoaPods](https://cocoapods.org).
+
     $ git clone https://github.com/pourhadi/ESIA.git
 
     $ cd ESIA
